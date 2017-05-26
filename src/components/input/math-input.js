@@ -1,8 +1,7 @@
-/* globals i18n */
-
 const React = require('react');
 const ReactDOM = require('react-dom');
 const {StyleSheet} = require("aphrodite");
+const i18n = require("../../../lib/i18n.js");
 
 const {View} = require('../../fake-react-native-web');
 const CursorHandle = require('./cursor-handle');
